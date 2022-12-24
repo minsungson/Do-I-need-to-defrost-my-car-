@@ -4,7 +4,7 @@ import os
 os.system("clear")
 fog = False
 
-conn = datapoint.Manager(api_key="*YOUR_API_KEY*")
+conn = datapoint.Manager(api_key="651a57b2-8d95-4d67-800c-c99dc33ef997")
 
 site = conn.get_nearest_forecast_site(55.94886, -3.19910)
 print("For " + site.name + ",")
